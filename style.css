@@ -3,87 +3,100 @@ main {
 }
 
 body {
-    background-color: rgb(210, 140, 190);
-  }
-  
-  * {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  }
-
-  h1 {
-    text-align: center;
-    height: 100px;
-    line-height: 100px;
-    color: aquamarine;
-    font-size: 75px;
-  }
-
-  header {
-    height: 100px;
-    width: 100%;
-    border-bottom: 10px solid darkblue;
-    background-color: #990059;
-    padding-top: 25px;
-  }
-
- .topnav a {
-    background-color: aqua;
-    overflow: hidden;
-    float: left;
-    color: blueviolet;
-    text-align: center;
-    padding: 14px 16px;
-    padding-top: 10px;
-    font-size: 17px;
-  }
-  
-  .topnav a :hover {
-    background-color: #ddd;
-    color: blue;
-  }
-
-  .image {
-    position: relative;
-  }
-
-  .image-padding {
-    padding: 20px;
-    background-color: #990075;
-  }
-  .image-border {
-    border: 10px solid rgb(0, 139, 132);
-  }
-  
-  .image-margin {
-    margin: 20px;
-    margin-left: 350px;
-  }
-
-  h2 {
-    font-size: 40px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-  .aside1 {
-      flex: 30%;
-      background-color: #b9c6ae;
-      padding: 20px;
-      flex-wrap: wrap;
-    }
-
-.aboutme1, .portfolio1, .contactinfo1 {
-    margin-bottom: 32px;
-    color: #ffffff;
-    padding-bottom: 400px;
+  background-color: rgb(210, 140, 190);
 }
 
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
-  footer {
-    margin-left: 265px;
-    height: 150px;
-    width: 100%;
-    border-top: 10px solid darkblue;
-    background-color: #990059;
-    padding-top: 75px;
+h1 {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  color: aquamarine;
+  font-size: 75px;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  border-bottom: 10px solid darkblue;
+  background-color: #990059;
+  padding-top: 25px;
+}
+
+.topnav a {
+  background-color: aqua;
+  overflow: hidden;
+  float: left;
+  color: blueviolet;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.topnav a :hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+p {
+  padding-top: 25px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.image {
+  flex: 70%;
+  position: relative;
+}
+
+.image-padding {
+  padding: 20px;
+  background-color: #990075;
+}
+
+.image-border {
+  border: 10px solid rgb(0, 139, 132);
+}
+
+.image-margin {
+  margin: 20px;
+  margin-left: 350px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.aside1 {
+  flex: 30%;
+  background-color: #b9c6ae;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.aboutme1,
+.portfolio1,
+.contactinfo1 {
+  margin-bottom: 32px;
+  color: #ffffff;
+  padding-bottom: 400px;
+}
+
+footer {
+  margin-left: 265px;
+  height: 150px;
+  width: 100%;
+  border-top: 10px solid darkblue;
+  background-color: #990059;
+  padding-top: 75px;
+}
