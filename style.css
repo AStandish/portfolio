@@ -50,7 +50,6 @@ button:focus {
   border-color: #8ac4ff;
 }
 
-
 p {
   padding-top: 25px;
   font-size: 30px;
@@ -109,10 +108,12 @@ h2::before {
 }
 
 footer {
-  margin-left: 265px;
   height: 150px;
   width: 100%;
   border-top: 10px solid darkblue;
   background-color: #990059;
-  padding-top: 75px;
+}
+.footer1 {
+  font-size: 25px;
+  margin-left: 400px;
 }
