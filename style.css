@@ -26,21 +26,30 @@ header {
   padding-top: 25px;
 }
 
-.topnav a {
-  background-color: aqua;
-  overflow: hidden;
-  float: left;
-  color: blueviolet;
-  text-align: center;
-  padding: 14px 16px;
-  padding-top: 10px;
-  font-size: 17px;
+button {
+  width: 250px;
+  margin: 0 .5%;
+  font-size: 200%;
+  color: #13293d;
+  background-color: #fff;
+  border: 3px solid #13293d;
 }
 
-.topnav a :hover {
-  background-color: #ddd;
-  color: blue;
+button:hover {
+  background-color: #772014;
+  color: #fff;
 }
+
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+}
+
 
 p {
   padding-top: 25px;
