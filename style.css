@@ -6,11 +6,21 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
+  h1 {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: aquamarine;
+    font-size: 75px;
+  }
+
   header {
     height: 100px;
     width: 100%;
     border-bottom: 10px solid darkblue;
     background-color: #990059;
+    padding-top: 25px;
+  }
 
  .topnav a {
     background-color: aqua;
@@ -19,6 +29,7 @@ body {
     color: blueviolet;
     text-align: center;
     padding: 14px 16px;
+    padding-top: 10px;
     font-size: 17px;
   }
   
@@ -42,4 +53,13 @@ body {
   
   .image-margin {
     margin: 20px;
+    margin-left: 350px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
