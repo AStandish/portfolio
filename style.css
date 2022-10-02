@@ -51,7 +51,7 @@ button:focus {
 }
 
 p {
-  padding-top: 25px;
+  padding-top: 20px;
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
@@ -90,6 +90,7 @@ h3 {
   flex: 30%;
   background-color: #b9c6ae;
   flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 .aboutme1,
@@ -105,7 +106,6 @@ h2::before {
   color: #772014;
   margin-right: 5px;
 }
-
 
 .image-padding1 {
   padding: 20px;
