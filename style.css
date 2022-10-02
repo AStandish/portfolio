@@ -1,3 +1,7 @@
+main {
+  display: flex;
+}
+
 body {
     background-color: rgb(210, 140, 190);
   }
@@ -40,7 +44,6 @@ body {
 
   .image {
     position: absolute;
-    left: 500px;
   }
 
   .image-padding {
