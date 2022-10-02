@@ -106,23 +106,6 @@ h2::before {
   margin-right: 5px;
 }
 
-.colors1 {
-
-}
-
-.colors {
-  border-style: solid;
-  border-width: 1px;
-  padding: 10px;
-  flex: auto;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  padding: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  position: relative;
-  width: 25%;
-  height: 25%;
-}
 
 .image-padding1 {
   padding: 20px;
@@ -138,12 +121,18 @@ h2::before {
   width: 15%;
   height: 15%;
 }
-/*
-.colors>img {
-  width: 25%;
-  height: 25%;
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #f82307;
+  }
 }
-*/
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+}
 @media screen and (max-width: 768px) {
 
   main,
