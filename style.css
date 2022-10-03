@@ -21,6 +21,7 @@ h1 {
   line-height: 100px;
   color: aquamarine;
   font-size: 75px;
+  text-shadow: 2px 2px gray;
 }
 
 header {
@@ -74,7 +75,7 @@ button::before {
   left: var(--horizontal-padding);
   right: var(--horizontal-padding);
 }
-/*Button variables copied from Miki Stanger on dev.to*/
+/*Button variables copied from Miki Stanger on dev.to and from thiscodeworks.com*/
 
 p {
   padding-top: 20px;
