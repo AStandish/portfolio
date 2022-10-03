@@ -6,6 +6,11 @@ body {
   background-color: rgb(210, 140, 190);
 }
 
+:root {
+  --vertical-padding: 5px;
+  --horizontal-padding: 10px;
+}
+
 * {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -33,11 +38,18 @@ button {
   color: #13293d;
   background-color: #fff;
   border: 3px solid #13293d;
+  padding: var(--vertical-padding) var(--horizontal-padding);
+  position: relative;
+  transition: all .05 ease;
+  scale: (1); 
 }
 
 button:hover {
   background-color: #772014;
   color: #fff;
+  transform: 
+  scale(1.25);
+  filter: brightness(110%);
 }
 
 button:active {
@@ -49,6 +61,20 @@ button:focus {
   outline: none;
   border-color: #8ac4ff;
 }
+
+button::before {
+  content: attr(data-label);
+  visibility: hidden;
+}
+
+.button_label {
+  position: absolute;
+  top: var(--vertical-padding);
+  bottom: var(--vertical-padding);
+  left: var(--horizontal-padding);
+  right: var(--horizontal-padding);
+}
+/*Button variables copied from Miki Stanger on dev.to*/
 
 p {
   padding-top: 20px;
