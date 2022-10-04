@@ -89,6 +89,8 @@ p {
 .image {
   flex: 70%;
   position: relative;
+  height: 300px;
+  width: 300px;
 }
 
 .image-padding {
