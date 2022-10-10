@@ -115,7 +115,7 @@ h3 {
   font-size: 40px;
 }
 
-.aside1 {
+.aside {
   flex: 30%;
   background-color: #b9c6ae;
   flex-wrap: wrap;
@@ -176,7 +176,7 @@ footer {
   background-color: #990059;
 }
 
-.footer1 {
+#contact {
   font-size: 25px;
   margin-left: 400px;
 }
