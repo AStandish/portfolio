@@ -6,10 +6,6 @@ body {
   background-color: rgb(210, 140, 190);
 }
 
-:root {
-  --vertical-padding: 5px;
-  --horizontal-padding: 10px;
-}
 
 * {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -39,7 +35,7 @@ button {
   color: #13293d;
   background-color: #fff;
   border: 3px solid #13293d;
-  padding: var(--vertical-padding) var(--horizontal-padding);
+  padding: 5px 10px;
   position: relative;
   transition: all .05 ease;
   scale: (1); 
@@ -70,10 +66,10 @@ button::before {
 
 .button_label {
   position: absolute;
-  top: var(--vertical-padding);
-  bottom: var(--vertical-padding);
-  left: var(--horizontal-padding);
-  right: var(--horizontal-padding);
+  top: 5px;
+  bottom: 5px;
+  left: 10px;
+  right: 10px;
 }
 /*Button variables copied from Miki Stanger on dev.to and from thiscodeworks.com*/
 
