@@ -11,7 +11,8 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-h1 {
+/* My name at top of page */
+#page-title {
   text-align: center;
   height: 100px;
   line-height: 100px;
@@ -28,6 +29,7 @@ header {
   padding-top: 25px;
 }
 
+ /* Style for all buttons */
 button {
   width: 250px;
   margin: 0 .5%;
@@ -82,6 +84,7 @@ p {
   text-align: center;
 }
 
+/* Image styles */
 .image {
   flex: 70%;
   position: relative;
@@ -103,12 +106,16 @@ p {
   margin-left: 350px;
 }
 
+/* aside */
 h2 {
   font-size: 40px;
 }
 
-h3 {
-  font-size: 40px;
+h2::before {
+  font-family: Impact;
+  content: '\2764';
+  color: #772014;
+  margin-right: 5px;
 }
 
 .aside {
@@ -124,13 +131,24 @@ h3 {
   padding-bottom: 400px;
 }
 
-h2::before {
-  font-family: Impact;
-  content: '\2764';
-  color: #772014;
-  margin-right: 5px;
+/* Footer */
+footer {
+  height: 150px;
+  width: 100%;
+  border-top: 10px solid darkblue;
+  background-color: #990059;
 }
 
+h3 {
+  font-size: 40px;
+}
+
+footer #contact {
+  font-size: 25px;
+  margin-left: 400px;
+}
+
+/* Media Queries */
 @media screen and (max-width: 992px) {
   header {
     background: #f82307;
@@ -150,14 +168,3 @@ h2::before {
   }
 }
 
-footer {
-  height: 150px;
-  width: 100%;
-  border-top: 10px solid darkblue;
-  background-color: #990059;
-}
-
-#contact {
-  font-size: 25px;
-  margin-left: 400px;
-}
